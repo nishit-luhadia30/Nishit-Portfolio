@@ -1,0 +1,82 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.1;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.block1{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry(0);
+}
+
+.text-animation::before {
+    content: "My code works... don't ask how.";
+    animation: words 20s infinite;
+}
+.text-animation::after {
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+    to {
+        border-left: 2px solid #fff;
+    }
+}
+@keyframes words {
+    0%, 20% {
+        content: "Frontend Designer";
+    }
+    21%, 40% {
+        content: "Web Designer";
+    }
+    41%, 60% {
+        content: "UI / UX Designer";
+    }
+    61%, 80% {
+        content: "Web Developer";
+    }
+    81%, 100% {
+        content: "Software Tester";
+    }
+}
+@keyframes typing {
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
