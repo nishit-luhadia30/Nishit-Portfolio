@@ -28,7 +28,7 @@ export default function Header() {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1wMmIjbPv3VUoamVU0yAYntqm1Y1d7s6a/view?usp=sharing"
+          href="https://drive.google.com/file/d/1d1ha9xBkbpna3bSwaIXgcSnwnBov507j/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block"
@@ -59,7 +59,7 @@ export default function Header() {
           <a href="#skills" className="block hover:text-[#00e5a0] transition">Skills</a>
           <a href="#contact" className="block hover:text-[#00e5a0] transition">Contact</a>
           <a
-            href="https://drive.google.com/file/d/1wMmIjbPv3VUoamVU0yAYntqm1Y1d7s6a/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d1ha9xBkbpna3bSwaIXgcSnwnBov507j/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
