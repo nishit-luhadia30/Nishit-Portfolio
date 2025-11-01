@@ -19,15 +19,16 @@ export default function Header() {
           <a href="#home" className="hover:text-[#00e5a0] transition">Home</a>
           <a href="#about" className="hover:text-[#00e5a0] transition">About</a>
           <a href="#experience" className="hover:text-[#00e5a0] transition">Experience</a>
+          <a href="#certificates" className="hover:text-[#00e5a0] transition">Certificates</a>
           <a href="#projects" className="hover:text-[#00e5a0] transition">Projects</a>
-          <a href="#cpstats" className="hover:text-[#00e5a0] transition">CP-Stats</a>
+          <a href="#cp-stats" className="hover:text-[#00e5a0] transition">CP-Stats</a>
           <a href="#skills" className="hover:text-[#00e5a0] transition">Skills</a>
           <a href="#contact" className="hover:text-[#00e5a0] transition">Contact</a>
         </nav>
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1ThPWG5c_vtDUTTxAYELFxuiukRWPPWkE/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1wMmIjbPv3VUoamVU0yAYntqm1Y1d7s6a/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block"
@@ -52,12 +53,13 @@ export default function Header() {
           <a href="#home" className="block hover:text-[#00e5a0] transition">Home</a>
           <a href="#about" className="block hover:text-[#00e5a0] transition">About</a>
           <a href="#experience" className="block hover:text-[#00e5a0] transition">Experience</a>
+          <a href="#certificates" className="block hover:text-[#00e5a0] transition">Certificates</a>
           <a href="#projects" className="block hover:text-[#00e5a0] transition">Projects</a>
-          <a href="#cpstats" className="block hover:text-[#00e5a0] transition">CP-Stats</a>
+          <a href="#cp-stats" className="block hover:text-[#00e5a0] transition">CP-Stats</a>
           <a href="#skills" className="block hover:text-[#00e5a0] transition">Skills</a>
           <a href="#contact" className="block hover:text-[#00e5a0] transition">Contact</a>
           <a
-            href="https://drive.google.com/file/d/1ThPWG5c_vtDUTTxAYELFxuiukRWPPWkE/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1wMmIjbPv3VUoamVU0yAYntqm1Y1d7s6a/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

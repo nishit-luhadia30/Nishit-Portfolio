@@ -4,15 +4,6 @@ import decen from "../images/decen.png";
 
 const projects = [
   {
-    title: " Smart AR Shopping Assistant",
-    description:
-      " Built a next-gen shopping web app with AR previews, voice assistant, and SmartPath™ — a route optimization feature using A* and TSP algorithms. Included stock management, cart handling, and immersive product interactions via @google/model-viewer",
-    icon: "📈",
-    tech: ["TypeScript", "React.js", "Vite", "AR", "A* Algorithm", "TSP Algorithm"],
-    github: "https://github.com/nishit-luhadia30/Walmart-Global-Tech-Hackathon",
-    demo: "/will-host-soon",
-  },
-  {
     title: "Internship Project",
     description:
       "Worked as a Web Development Intern, building a fully responsive website using React.js, Tailwind CSS, and modern frontend libraries. Developed key components like Kits and Navigation, integrated routing for a smooth UX, and collaborated with the design team for consistent UI/UX.",
@@ -31,6 +22,15 @@ const projects = [
     demo: "https://decentralized-den.vercel.app/",
   },
   {
+    title: " Smart AR Shopping Assistant",
+    description:
+      " Built a next-gen shopping web app with AR previews, voice assistant, and SmartPath™ — a route optimization feature using A* and TSP algorithms. Included stock management, cart handling, and immersive product interactions via @google/model-viewer",
+    icon: "📈",
+    tech: ["TypeScript", "React.js", "Vite", "AR", "A* Algorithm", "TSP Algorithm"],
+    github: "https://github.com/nishit-luhadia30/Walmart-Global-Tech-Hackathon",
+    demo: "/will-host-soon",
+  },
+  {
     title: "Budget Planner Web App",
     description:
       "A smart and responsive web app that helps users manage their monthly budgets efficiently. It allows multiple users to log in securely, add and track their expenses, view total spending, remaining balance, and category-wise breakdowns. Users can also export their reports in CSV and PDF formats for easy record-keeping. Built with a React frontend, Node.js + Express backend, and MongoDB database, it’s a full-stack solution for smarter money management.",
@@ -47,6 +47,15 @@ const projects = [
     tech: ["React.js", "React-router", "@google/generative-ai", "@supabase/supabase-js", "Local Storage", "Node.js", "React-Context-API", "Custom hooks"],
     github: "https://github.com/nishit-luhadia30/GenAI",
     demo: "https://gen-ai-henna.vercel.app/",
+  },
+  {
+    title: "Chat-Sphere",
+    description:
+      "💬 ChatSphere is a real-time chat web app built using React.js, Node.js, Express, Socket.IO, and MongoDB. It allows users to sign up, log in, and chat instantly in one-on-one or group conversations, with messages updating live through sockets. The project features JWT-based authentication, responsive UI, and cloud-hosted backend for smooth communication between users.",
+    icon: "💰",
+    tech: ["React.js", "Node.js", "Websockets", "Socket.io", "Express.js", "MongoDB", "Cloudinary"],
+    github: "https://github.com/nishit-luhadia30/Chat-Sphere",
+    demo: "https://chat-sphere-beta.vercel.app/",
   },
 ];
 
