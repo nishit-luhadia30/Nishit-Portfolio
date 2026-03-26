@@ -1,22 +1,80 @@
-import { Trophy, Medal, Star } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Trophy } from "lucide-react";
 
 const CPStats = () => {
-  const platforms = [
-    { id: 1, name: "Codeforces", rating: "Newbie, 933", short: "CF", link: "https://codeforces.com/profile/Nishit_Luhadia" },
-    { id: 2, name: "LeetCode", rating: "1,407,487 Rank😁", short: "LC" , link: "https://leetcode.com/u/nishit_luhadia/" },
-    { id: 3, name: "GeeksForGeeks", rating: "1665 Ranking", short: "GG" , link: "https://www.geeksforgeeks.org/user/nishit95lvkp8/" },
-  ];
+  const [platforms, setPlatforms] = useState([
+    {
+      id: 1,
+      name: "Codeforces",
+      rating: "Loading...",
+      short: "CF",
+      link: "https://codeforces.com/profile/Nishit_Luhadia",
+    },
+    {
+      id: 2,
+      name: "LeetCode",
+      rating: "1541 Rating",
+      short: "LC",
+      link: "https://leetcode.com/u/nishit_luhadia/",
+    },
+    {
+      id: 3,
+      name: "GeeksForGeeks",
+      rating: "Solves Problems",
+      short: "GFG",
+      link: "https://www.geeksforgeeks.org/user/nishit95lvkp8/",
+    },
+  ]);
 
-  const contests = [
-    // {
-    //   id: 1,
-    //   title: "DevUP Programming Contest",
-    //   achievement: "1st Place",
-    //   date: "March 2025",
-    //   icon: <Medal className="text-yellow-400 w-8 h-8" />,
-    // },
-    
-  ];
+  useEffect(() => {
+    const fetchCF = async () => {
+      try {
+        const res = await fetch(
+          "https://codeforces.com/api/user.info?handles=Nishit_Luhadia"
+        );
+        const data = await res.json();
+        const user = data.result[0];
+
+        setPlatforms((prev) =>
+          prev.map((p) =>
+            p.name === "Codeforces"
+              ? {
+                  ...p,
+                  rating: `${user.rank}, ${user.rating}`,
+                }
+              : p
+          )
+        );
+      } catch (err) {
+        console.error("CF error:", err);
+      }
+    };
+
+    const fetchLC = async () => {
+      try {
+        const res = await fetch(
+          "https://leetcode-stats-api.herokuapp.com/nishit_luhadia"
+        );
+        const data = await res.json();
+
+        setPlatforms((prev) =>
+          prev.map((p) =>
+            p.name === "LeetCode"
+              ? {
+                  ...p,
+                  rating: `Rank ${data.ranking}`,
+                }
+              : p
+          )
+        );
+      } catch (err) {
+        console.error("LC error:", err);
+      }
+    };
+
+    fetchCF();
+    fetchLC();
+  }, []);
 
   return (
     <section
@@ -33,39 +91,31 @@ const CPStats = () => {
         <h3 className="flex items-center gap-2 text-lg font-semibold mb-6 text-green-400">
           <Trophy className="w-6 h-6" /> Platforms
         </h3>
+
         <div className="space-y-4">
           {platforms.map((p) => (
             <div
               key={p.id}
               className="flex items-center justify-between bg-[#080b12] p-4 rounded-xl hover:scale-105 hover:bg-[#1e293b] transition duration-300 shadow"
             >
-                <a href={p.link} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between w-full">
-                    <div className="flex items-center gap-4">
-                        <div className="bg-green-600 text-white font-bold px-3 py-2 rounded-lg">
-                            {p.short}
-                        </div>
-                        <span className="font-medium">{p.name}</span>
-                    </div>
-                    <span className="text-gray-300">{p.rating}</span>
-                </a>
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="bg-green-600 text-white font-bold px-3 py-2 rounded-lg">
+                    {p.short}
+                  </div>
+                  <span className="font-medium">{p.name}</span>
+                </div>
+
+                <span className="text-gray-300">{p.rating}</span>
+              </a>
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Contests */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {contests.map((c) => (
-          <div
-            key={c.id}
-            className="bg-[#192230] p-6 rounded-2xl text-center shadow-md hover:scale-105 hover:bg-[#334155] transition duration-300"
-          >
-            <div className="flex justify-center mb-4">{c.icon}</div>
-            <h4 className="text-lg font-semibold mb-2">{c.title}</h4>
-            <p className="text-gray-300">{c.achievement}</p>
-            <p className="text-sm text-gray-400 mt-2">{c.date}</p>
-          </div>
-        ))}
       </div>
     </section>
   );
