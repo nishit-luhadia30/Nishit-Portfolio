@@ -22,33 +22,35 @@ const About = () => {
             at LNMIIT, Jaipur (Class of 2027). I cracked JEE, landed here with dreams and 
             caffeine, and now spend most of my time building cool stuff, debugging 
             questionable code, and geeking out over tech. Whether it's web dev, 
-            electronics, or some random idea at 2 AM — I'm all in. I'm always exploring 
-            the “what ifs” of tech, turning side projects into full-blown builds, and 
-            constantly leveling up. Failures? Just plot twists in the story, tbh.
+            electronics, or some random idea at 2 AM — I'm all in. Lately, I've also been 
+            diving into LLMs 🤖 — exploring how AI models work and how to build smarter, 
+            more context-aware applications. I'm always exploring the “what ifs” of tech, 
+            turning side projects into full-blown builds, and constantly leveling up. 
+            Failures? Just plot twists in the story, tbh.
           </p>
           <p>
             I'm into full-stack dev (React + Node.js gang ✌️), IoT setups with ESP32, and 
             writing code that somehow works (don't ask how, it just does 😅). I speak 
             fluent C, C++, Python, and Java, and when I'm not coding, I'm probably 
-            brainstorming features for a project or making sleek UI with Tailwind. I've 
-            built responsive sites, connected sensors to the cloud, and even made a smart 
-            lab system that can lowkey think for itself. Logic, caffeine, late-night 
-            commits, and shipping projects — that's the vibe. And the best part? I'm just 
-            getting started.
+            experimenting with AI/LLM ideas, brainstorming features for a project, or 
+            making sleek UI with Tailwind. I've built responsive sites, connected sensors 
+            to the cloud, and even made a smart lab system that can lowkey think for 
+            itself. Logic, caffeine, late-night commits, and shipping projects — that's 
+            the vibe. And the best part? I'm just getting started.
           </p>
 
           {/* Stats */}
           <div className="flex flex-wrap gap-12 mt-10">
             <div className="transform hover:scale-110 transition-transform duration-300">
-              <p className="text-3xl font-bold text-green-400">300+</p>
+              <p className="text-3xl font-bold text-green-400">400+</p>
               <p className="text-sm text-gray-400 mt-1">Problems Solved</p>
             </div>
             <div className="transform hover:scale-110 transition-transform duration-300">
-              <p className="text-3xl font-bold text-green-400">10+</p>
+              <p className="text-3xl font-bold text-green-400">15+</p>
               <p className="text-sm text-gray-400 mt-1">Contests Participated</p>
             </div>
             <div className="transform hover:scale-110 transition-transform duration-300">
-              <p className="text-3xl font-bold text-green-400">4+</p>
+              <p className="text-3xl font-bold text-green-400">8+</p>
               <p className="text-sm text-gray-400 mt-1">Projects Completed</p>
             </div>
           </div>

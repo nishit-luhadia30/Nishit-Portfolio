@@ -10,7 +10,7 @@ const projects = [
     icon: "💼",
     tech: ["React.js", "Tailwind CSS", "Chatbot", "Firebase", "React-router"],
     github: "https://github.com/nishit-luhadia30/Internship-TechHyaku",
-    demo: "https://internship-tech-hyaku.vercel.app/",
+    demo: "https://www.techhyaku.com/",
   },
   {
     title: "Decentralized Den",

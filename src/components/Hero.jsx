@@ -64,11 +64,13 @@ const Hero = () => {
           <p className="text-lg text-gray-300">
             🔥 I'm super passionate about web dev — especially Frontend! 🎨💻
             Love crafting dynamic, aesthetic, and interactive websites that
-            actually vibe. Catch me building stuff at hackathons ⚡ and killing
+            actually vibe. Also diving into LLMs 🤖 — building smart, AI-powered
+            features and exploring how to make apps more intelligent.
+            Catch me building stuff at hackathons ⚡ and killing
             it in presentations 🎤 — always leveling up my skills!
             <br />
             <span className="text-[#00e5a0]">
-              #FrontendDev #WebDevLife #HackathonGrind #CodeAndCreate #TechieVibes
+              #FrontendDev #WebDevLife #HackathonGrind #LLM #AI #CodeAndCreate #TechieVibes
             </span>
           </p>
 
@@ -80,7 +82,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1d1ha9xBkbpna3bSwaIXgcSnwnBov507j/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rIkulcKIih2RF4Dyjt1VhZSeBchwlryH/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
