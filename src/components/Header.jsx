@@ -28,7 +28,7 @@ export default function Header() {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1d1ha9xBkbpna3bSwaIXgcSnwnBov507j/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rIkulcKIih2RF4Dyjt1VhZSeBchwlryH/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block"
