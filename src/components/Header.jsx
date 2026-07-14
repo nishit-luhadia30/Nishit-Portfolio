@@ -18,6 +18,7 @@ export default function Header() {
         <nav className="hidden md:flex space-x-8 text-lg font-medium">
           <a href="#home" className="hover:text-[#00e5a0] transition">Home</a>
           <a href="#about" className="hover:text-[#00e5a0] transition">About</a>
+          <a href="#education" className="hover:text-[#00e5a0] transition">Education</a>
           <a href="#experience" className="hover:text-[#00e5a0] transition">Experience</a>
           <a href="#certificates" className="hover:text-[#00e5a0] transition">Certificates</a>
           <a href="#projects" className="hover:text-[#00e5a0] transition">Projects</a>
@@ -52,6 +53,7 @@ export default function Header() {
         <div className="md:hidden bg-gray-800 px-6 py-4 space-y-4">
           <a href="#home" className="block hover:text-[#00e5a0] transition">Home</a>
           <a href="#about" className="block hover:text-[#00e5a0] transition">About</a>
+          <a href="#education" className="block hover:text-[#00e5a0] transition">Education</a>
           <a href="#experience" className="block hover:text-[#00e5a0] transition">Experience</a>
           <a href="#certificates" className="block hover:text-[#00e5a0] transition">Certificates</a>
           <a href="#projects" className="block hover:text-[#00e5a0] transition">Projects</a>
