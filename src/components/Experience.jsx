@@ -36,6 +36,14 @@ const Experience = () => {
       description:
         "Web Development Intern — built a responsive website using React.js and Tailwind CSS. Developed core components like Kits and Navigation, integrated routing for smooth UX, added a chatbot, and collaborated with the design team for consistent UI/UX.",
     },
+    {
+      role: "Software Development (Full Stack) Internship",
+      company: "Secure Meters Pvt. Ltd.",
+      duration: "Jun 2026 - Jul 2026",
+      skills: ["Kafka", "PostgreSQL", "DBMS", "Dev Express", "Masking"],
+      description:
+        "Software Development Intern. Collaborated on enterprise-grade backend applications using Apache Kafka, SQL, and .NET technologies. Designed and optimized SQL queries and implemented data masking solutions to secure personally identifiable information (PII) in reports and database operations. Improved data privacy and reporting workflows while gaining practical experience with event-driven architectures, database management, and production-level software development.",
+    },
   ];
 
   return (

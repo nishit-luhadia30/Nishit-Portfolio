@@ -115,7 +115,7 @@ const Certificates = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-400 mb-2">6+</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">5+</div>
               <div className="text-gray-400">Certifications Earned</div>
             </div>
             <div className="text-center">

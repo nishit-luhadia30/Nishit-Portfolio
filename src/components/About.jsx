@@ -42,7 +42,7 @@ const About = () => {
           {/* Stats */}
           <div className="flex flex-wrap gap-12 mt-10">
             <div className="transform hover:scale-110 transition-transform duration-300">
-              <p className="text-3xl font-bold text-green-400">400+</p>
+              <p className="text-3xl font-bold text-green-400">550+</p>
               <p className="text-sm text-gray-400 mt-1">Problems Solved</p>
             </div>
             <div className="transform hover:scale-110 transition-transform duration-300">
@@ -70,7 +70,7 @@ const About = () => {
 
           <div className="flex items-center justify-center gap-2 text-orange-400 mb-2">
             <FaMapMarkerAlt />
-            <span className="text-gray-300 text-sm">Udaipur</span>
+            <span className="text-gray-300 text-sm">Udaipur / Jaipur</span>
           </div>
           <div className="flex items-center justify-center gap-2 text-orange-400">
             <FaGraduationCap />

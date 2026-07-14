@@ -93,6 +93,8 @@ const Skills = () => {
               "Matplotlib",
               "pandas",
               "NumPy",
+              "PostgreSQL",
+              "Dev Express",
             ].map((tool, idx) => (
               <span
                 key={idx}
