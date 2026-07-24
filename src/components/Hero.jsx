@@ -82,7 +82,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1rIkulcKIih2RF4Dyjt1VhZSeBchwlryH/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1zL7XQ599wP_iLjhCHeLUy_gcPl6Pkv_b/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

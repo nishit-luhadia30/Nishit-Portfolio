@@ -60,12 +60,21 @@ const CertificateCard = ({ title, issuer, date, description, skills, link, crede
 const Certificates = () => {
   const certificates = [
     {
+      title: "Software Development (Full Stack) Internship",
+      issuer: "Namrata Dodeja, HR Manager",
+      date: "Jun 2026 - Jul 2026",
+      description: "Collaborated on enterprise-grade backend applications using .NET, Apache Kafka, and SQL. Implemented data masking solutions to protect sensitive information in reports and database operations. Optimized SQL queries and contributed to secure, efficient data processing. Gained hands-on experience with event-driven systems and production-level backend development.",
+      skills: ["Apache Kafka", "PostgreSQL", "Dev Express", "DBMS", "Masking"],
+      link: "https://drive.google.com/file/d/1tC5OND9GpX3X_WWDl_3_Xdki71SdN5aW/view?usp=drive_link",
+      credentialId: "Certificate:019"
+    },
+    {
       title: "Web Development Internship",
       issuer: "",
       date: "May 2025 - Jun 2025",
       description: "Web Development Intern — built a responsive website using React.js and Tailwind CSS. Developed core components like Kits and Navigation, integrated routing for smooth UX, added a chatbot, and collaborated with the design team for consistent UI/UX.",
       skills: ["JavaScript", "React.js", "TailwindCSS", "Responsive Design", "Chatbot", "Firebase"],
-      link: "https://drive.google.com/file/d/1_9cOUZDEiP5ID8Uoe9wqO-3ex2VkX-Ew/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1U6t2mJtxQCwhrQDcb43n3WMQnRYV1DYP/view?usp=drive_link",
       credentialId: "TH-2023-03-INT-006"
     },
     {
@@ -74,7 +83,7 @@ const Certificates = () => {
       date: "2025",
       description: "Walmart Global Tech Hackathon Built a next-gen shopping web app with AR previews, voice assistant, and SmartPath™ — a route optimization feature using A* and TSP algorithms. Included stock management, cart handling, and immersive product interactions via@google/model-viewer",
       skills: ["TypeScript", "React.js", "Vite", "AR", "A*", "TSP"],
-      link: "https://drive.google.com/file/d/1YYfK9wASjfh0NAUbibDM_wcDQZ7VbP0G/view?usp=sharing",
+      link: "https://drive.google.com/file/d/17zslAtIdjLh44LGMDX2RceAF7oiqUHyY/view?usp=drive_link",
       credentialId: "Sparkathon-converge"
     },
     {
@@ -83,7 +92,7 @@ const Certificates = () => {
       date: "20-07-2025",
       description: "1-day workshop on AI Tools, where I explored various modern AI applications and learned how to effectively utilize them across different tasks. The session focused on understanding the functionalities of popular AI tools, along with hands-on practice in crafting optimized prompts for enhanced output.",
       skills: ["Grok.ai", "Genspark.ai", "Napkin.ai", "NotebookLM", "Screener.in", "Claude.ai", "Julius.ai"],
-      link: "https://drive.google.com/file/d/1wjNaTmwErkUzXzM0MFsEi0B6ejUNQZGb/view?usp=sharing",
+      link: "https://drive.google.com/file/d/16YnvulQv5PaSfK3Cf6RWqF0BUELVaG5v/view?usp=drive_link",
       credentialId: "UC-REACT-2025-NL"
     },
   ];
